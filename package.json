@@ -7,7 +7,7 @@
     "author": "ulunmuhammadridho@gmail.com\"",
     "license": "MIT",
     "scripts": {
-        "dev": "parcel lib/index.js --out-dir test/ -p 1987",
+        "dev": "parcel lib/index.js --global validator --out-dir test/ -p 1987",
         "build": "NODE_ENV=production && parcel build lib/index.js"
     },
     "dependencies": {
