@@ -7,8 +7,8 @@
     "author": "ulunmuhammadridho@gmail.com\"",
     "license": "MIT",
     "scripts": {
-        "dev": "parcel lib/index.js --global validator --out-dir test/ -p 1987",
-        "build": "NODE_ENV=production && parcel build lib/index.js"
+        "dev": "parcel lib/index.js --global vForm --out-dir test/ -p 1987",
+        "build": "NODE_ENV=production && parcel build lib/index.js --global vForm --out-dir dist/"
     },
     "dependencies": {
         "babel-preset-env": "^1.7.0",
